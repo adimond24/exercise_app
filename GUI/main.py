@@ -44,7 +44,7 @@ image_on_canvas = canvas.create_image(250, 200, image=single_tap_img)  # Initial
 # TimerApp Class to handle the countdown timer
 class TimerApp:
     def __init__(self, root):
-        self.root = root
+        self.root = root 
         self.root.title("Timer App")
 
         self.time_left = 240  # Set initial time for the countdown (in seconds)
